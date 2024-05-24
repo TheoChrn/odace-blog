@@ -30,15 +30,14 @@ Users should be able to:
 
 ### Screenshot
 
-![Homepage Screenshot](./public/assets/screenshots/Screenshot 2024-05-25 at 00-51-29 Vite React TS.png)
-![Homepage Screenshot](./public/assets/screenshots/Screenshot 2024-05-25 at 00-51-57 Vite React TS.png)
-![Homepage Screenshot](./public/assets/screenshots/Screenshot 2024-05-25 at 00-52-14 Vite React TS.png)
-![Homepage Screenshot](./public/assets/screenshots/Screenshot 2024-05-25 at 00-52-25 Vite React TS.png)
+![Homepage Screenshot](./public/assets/screenshots/preview-blog-page.png)
+![Homepage Screenshot](./public/assets/screenshots/preview-blog-page-mobile.png)
+![Homepage Screenshot](./public/assets/screenshots/preview-blogPost-page.png)
+![Homepage Screenshot](./public/assets/screenshots/preview-blogPost-page-mobile.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://audiophile-nextjs-gold.vercel.app/earphones)
-- Live Site URL: [Add live site URL here](https://audiophile-nextjs-gold.vercel.app/earphones)
+- Solution URL: [Add solution URL here](https://odace-blog.vercel.app/)
 
 ## My process
 
@@ -46,17 +45,11 @@ Users should be able to:
 
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
 - [TailWindcss](https://tailwindcss.com/) - For styles
-- [Zod](https://zod.dev/) - For types and form validation
-- [TanStack Query](https://tanstack.com/query/latest) - For caching, prefetching, refetching, mutations.
-- [Shadcn/Ui](https://ui.shadcn.com/) - For customizable components.
-
 
 ## Author
 
 - Website - [Théo CHÉRON](https://theo-cheron.fr/)
-- Frontend Mentor - [@TheoChrn](https://www.frontendmentor.io/profile/TheoChrn)
 - Twitter/X - [@vtchrn](https://www.twitter.com/vtchrn)
 
 
