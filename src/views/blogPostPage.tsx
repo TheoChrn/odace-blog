@@ -31,7 +31,7 @@ const BlogPostPage = () => {
         <Loader />
       ) : (
         <main className="flex flex-col justify-center items-center text-white min-h-screen">
-          <div className="flex flex-col gap-y-medium items-center justify-center  w-full py-[12rem] px-[1rem]   ">
+          <div className=" bg-gradient-to-t from-accent-darkest via-background  to-background flex flex-col gap-y-medium items-center justify-center  w-full py-[12rem] px-[1rem]   ">
             <h2 className="text-center text-xl md:text-4xl">
               {blogPost.title}
             </h2>
@@ -46,8 +46,8 @@ const BlogPostPage = () => {
               <span>{blogPostClass.formatDate()}</span>
             </i>
           </div>
-          <div className=" w-full  bg-gradient-to-b from-accent-darker via-background  to-background ">
-            <div className="max-w-[1110px] m-auto  -translate-y-24 px-5 flex flex-col items-center justify-center">
+          <div className=" w-full  px-small ">
+            <div className="max-w-[1110px] m-auto  -translate-y-24 flex flex-col items-center justify-center">
               <div className=" flex flex-col items-center justify-center gap-y-[8rem]">
                 <figure className="relative w-fit">
                   <span className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-black text-xl md:text-4xl lg:text-7xl bg-white  rotate-45">

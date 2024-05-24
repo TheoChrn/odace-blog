@@ -11,8 +11,7 @@
     --color2 : hsl(0, 0%, 6%);
     --color3 : hsl(298, 55%, 59%);
     --color4 : hsl(266, 84%, 59%);
-    --color5 : hsl(295, 57%, 59%);
-    --color6 : hsla(266, 84%, 59%, 0.2);
+    --color6 : hsl(263, 48%, 26%);
     --color7 : hsl(0, 0%, 14%);
     
     --background: var(--color2);

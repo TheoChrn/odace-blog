@@ -29,7 +29,7 @@ const socialMediaArr = [
 
 const Footer = () => {
   return (
-    <footer className="py-12 overflow-hidden bg-gradient-to-t from-accent-darker via-accent-darkest  to-background  ">
+    <footer className="py-12 overflow-hidden bg-gradient-to-t from-accent-darkest via-accent-darkest  to-background  ">
       <div className="flex flex-col items-center justify-center px-5">
         <div className=" relative text-foreground flex items-center justify-center ">
           <p className="my-24 w-full md:w-fit text-center text-2xl sm:text-4xl md:text-6xl lg:text-7xl text font-bold ">
