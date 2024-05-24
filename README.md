@@ -30,10 +30,10 @@ Users should be able to:
 
 ### Screenshot
 
-![Homepage Screenshot](./public/assets/screenshots/preview-blog-page.png)
-![Homepage Screenshot](./public/assets/screenshots/preview-blog-page-mobile.png)
-![Homepage Screenshot](./public/assets/screenshots/preview-blogPost-page.png)
-![Homepage Screenshot](./public/assets/screenshots/preview-blogPost-page-mobile.png)
+![Homepage Screenshot](./public/assets/images/screenshots/preview-blog-page.png)
+![Homepage Screenshot](./public/assets/images/screenshots/preview-blog-page-mobile.png)
+![Homepage Screenshot](./public/assets/images/screenshots/preview-blogPost-page.png)
+![Homepage Screenshot](./public/assets/images/screenshots/preview-blogPost-page-mobile.png)
 
 ### Links
 
