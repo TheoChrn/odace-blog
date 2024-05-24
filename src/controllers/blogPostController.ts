@@ -10,6 +10,9 @@ class BlogPostController {
         throw new Error("Network response was not ok");
       }
       const data = await response.json();
+      if (!data.articles.length) {
+        throw new Error("Not posts were found");
+      }
       return data.articles;
     } catch (error) {
       throw new Error(
@@ -22,7 +25,7 @@ class BlogPostController {
 
   public async getBlogPostById(
     id: number
-  ): Promise<{ BlogPost: BlogPost | null }> {
+  ): Promise<{ BlogPost: BlogPost }> {
     try {
       const response = await fetch(this.dataUrl);
       if (!response.ok) {
@@ -30,8 +33,8 @@ class BlogPostController {
       }
       const data = await response.json();
       const blogPost = data.articles.find((post: BlogPost) => post.id === id);
-      console.log(blogPost);
-      if (blogPost === undefined) {
+
+      if (!blogPost) {
         throw new Error("This post doesn't exist yet");
       }
       return blogPost;
@@ -44,7 +47,7 @@ class BlogPostController {
 
   public async getBlogPostsByTag(
     tag: string
-  ): Promise<{ BlogPosts: BlogPost[] | null }> {
+  ): Promise<{ BlogPosts: BlogPost[] }> {
     try {
       const response = await fetch(this.dataUrl);
       if (!response.ok) {
@@ -56,7 +59,7 @@ class BlogPostController {
         post.tags.includes(tag)
       );
 
-      if (!blogPosts) {
+      if (!blogPosts.length) {
         throw new Error("404 Not Found");
       }
       return blogPosts;

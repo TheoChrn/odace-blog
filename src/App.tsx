@@ -1,15 +1,14 @@
-import {
-  RouterProvider,
-  createBrowserRouter
-} from "react-router-dom";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import "./global.css";
 import BlogPostPage, { blogPostLoader } from "./views/blogPostPage";
 import ErrorPage from "./views/errorPage";
-import Home, { homeFilterLoader } from "./views/home";
+import Home from "./views/home";
 import RootLayout from "./views/root";
-
+import { homeFilterLoader } from "./lib/loadersFunc";
+import React from "react";
 
 function App() {
+  const MemoizedHome = React.memo(Home);
   const router = createBrowserRouter([
     {
       path: "/",
@@ -18,7 +17,7 @@ function App() {
       children: [
         {
           index: true,
-          element: <Home />,
+          element: <MemoizedHome />,
           errorElement: <ErrorPage />,
           loader: homeFilterLoader,
         },

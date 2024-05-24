@@ -1,25 +1,25 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
-const FilterTag = ({
-  currentTag,
-  tag,
-}: {
+interface FilterTagProps {
   currentTag: string | null;
   tag: string;
-}) => {
+}
+
+const FilterTag = ({ currentTag, tag }: FilterTagProps) => {
+  const isActive = currentTag === tag;
+
+  const destinationURL = isActive ? "/" : `?tag=${tag}`;
+
+  const linkClasses = `first-letter:uppercase bg-tag py-2 px-5 cursor-pointer rounded-xl duration-200 hover:bg-white ${
+    isActive ? "bg-white" : "bg-tag"
+  }`;
+
   return (
-    <li
-      className={`first-letter:uppercase bg-tag py-2 px-5 cursor-pointer rounded-xl duration-200 hover:bg-white ${
-        currentTag === tag ? "bg-white" : "bg-tag"
-      }`}
-    >
-      <Link
-        className="textClip bg-gradient-to-r from-accent via-accent to-accent-darker font-extrabold text-xl "
-        to={!currentTag !== null && currentTag === tag ? "/" : `?tag=${tag}`}
-      >
+    <NavLink to={destinationURL} className={linkClasses}>
+      <span className="textClip bg-gradient-to-r from-accent via-accent to-accent-darker font-extrabold text-xl">
         {tag}
-      </Link>
-    </li>
+      </span>
+    </NavLink>
   );
 };
 
