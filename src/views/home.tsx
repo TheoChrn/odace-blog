@@ -34,7 +34,7 @@ const Home = () => {
   };
 
   return (
-    <div className="text-background text-base   min-h-screen ">
+    <div className="text-background text-base   min-h-[100svh] ">
       <ScrollRestoration />
       <h2 className="relative w-auto m-auto mb-[6rem] mt-[5rem] text-center first-letter:uppercase text-foreground text-7xl backdrop-blur-xl h1 ">
         <span className="">blog</span>

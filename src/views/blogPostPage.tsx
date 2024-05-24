@@ -23,11 +23,10 @@ const BlogPostPage = () => {
   const { blogPost } = useLoaderData() as { blogPost: BlogPost };
   const blogPostClass = new BlogPostModel(blogPost);
 
-  if (!blogPost) return <div>Spinner</div>;
-
   return (
     <>
       <ScrollRestoration />
+
       {isLoading ? (
         <Loader />
       ) : (
