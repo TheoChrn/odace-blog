@@ -1,0 +1,124 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "title": "Exploring the Beauty of Nature",
+      "content": "In this article, we explore various natural landscapes around the world, highlighting the beauty and diversity of the planet.",
+      "createdAt": "2024-05-20T12:00:00Z",
+      "updatedAt": "2024-05-20T12:00:00Z",
+      "author": "Jane Doe",
+      "src": "./assets/images/example-4.jpg",
+      "tags": ["nature"]
+    },
+    {
+      "id": 2,
+      "title": "The Evolution of Technology",
+      "content": "This piece examines the rapid advancements in technology over the past decade, from smartphones to artificial intelligence.",
+      "createdAt": "2024-05-20T13:00:00Z",
+      "updatedAt": "2024-05-20T13:00:00Z",
+      "author": "John Smith",
+      "src": "./assets/images/example.jpg",
+      "tags": ["technology"]
+    },
+    {
+      "id": 3,
+      "title": "Gourmet Trends in 2024",
+      "content": "A look at the emerging food trends that are reshaping the gourmet landscape in 2024, including plant-based innovations.",
+      "createdAt": "2024-05-20T14:00:00Z",
+      "updatedAt": "2024-05-20T14:00:00Z",
+      "author": "Alice Johnson",
+      "src": "./assets/images/example-2.jpg",
+      "tags": ["food", "trends"]
+    },
+    {
+      "id": 4,
+      "title": "Understanding Global Economies",
+      "content": "An analysis of major economic trends affecting global markets today, focusing on trade policies and international relations.",
+      "createdAt": "2024-05-20T15:00:00Z",
+      "updatedAt": "2024-05-20T15:00:00Z",
+      "author": "Ahmed Farid",
+      "src": "./assets/images/example-3.jpg",
+      "tags": ["economics", "global"]
+    },
+    {
+      "id": 5,
+      "title": "The Impact of Climate Change",
+      "content": "Exploring the effects of climate change on different ecosystems and what can be done to mitigate these effects.",
+      "createdAt": "2024-05-20T16:00:00Z",
+      "updatedAt": "2024-05-20T16:00:00Z",
+      "author": "Maria Gonzalez",
+      "src": "./assets/images/example-4.jpg",
+      "tags": ["environment", "climate"]
+    },
+    {
+      "id": 6,
+      "title": "Revolutionizing Education",
+      "content": "How new educational technologies and methodologies are transforming the way we learn in the 21st century.",
+      "createdAt": "2024-05-20T17:00:00Z",
+      "updatedAt": "2024-05-20T17:00:00Z",
+      "author": "Emily Zhao",
+      "src": "./assets/images/example.jpg",
+      "tags": ["education", "innovation"]
+    },
+    {
+      "id": 7,
+      "title": "Exploring the Beauty of Nature",
+      "content": "In this article, we explore various natural landscapes around the world, highlighting the beauty and diversity of the planet.",
+      "createdAt": "2024-05-20T12:00:00Z",
+      "updatedAt": "2024-05-20T12:00:00Z",
+      "author": "Jane Doe",
+      "src": "./assets/images/example-4.jpg",
+      "tags": ["nature"]
+    },
+    {
+      "id": 8,
+      "title": "The Evolution of Technology",
+      "content": "This piece examines the rapid advancements in technology over the past decade, from smartphones to artificial intelligence.",
+      "createdAt": "2024-05-20T13:00:00Z",
+      "updatedAt": "2024-05-20T13:00:00Z",
+      "author": "John Smith",
+      "src": "./assets/images/example.jpg",
+      "tags": ["technology"]
+    },
+    {
+      "id": 9,
+      "title": "Gourmet Trends in 2024",
+      "content": "A look at the emerging food trends that are reshaping the gourmet landscape in 2024, including plant-based innovations.",
+      "createdAt": "2024-05-20T14:00:00Z",
+      "updatedAt": "2024-05-20T14:00:00Z",
+      "author": "Alice Johnson",
+      "src": "./assets/images/example-2.jpg",
+      "tags": ["food", "trends"]
+    },
+    {
+      "id": 10,
+      "title": "Understanding Global Economies",
+      "content": "An analysis of major economic trends affecting global markets today, focusing on trade policies and international relations.",
+      "createdAt": "2024-05-20T15:00:00Z",
+      "updatedAt": "2024-05-20T15:00:00Z",
+      "author": "Ahmed Farid",
+      "src": "./assets/images/example-3.jpg",
+      "tags": ["economics", "global"]
+    },
+    {
+      "id": 11,
+      "title": "The Impact of Climate Change",
+      "content": "Exploring the effects of climate change on different ecosystems and what can be done to mitigate these effects.",
+      "createdAt": "2024-05-20T16:00:00Z",
+      "updatedAt": "2024-05-20T16:00:00Z",
+      "author": "Maria Gonzalez",
+      "src": "./assets/images/example-4.jpg",
+      "tags": ["environment", "climate"]
+    },
+    {
+      "id": 12,
+      "title": "Revolutionizing Education",
+      "content": "How new educational technologies and methodologies are transforming the way we learn in the 21st century.",
+      "createdAt": "2024-05-20T17:00:00Z",
+      "updatedAt": "2024-05-20T17:00:00Z",
+      "author": "Emily Zhao",
+      "src": "./assets/images/example.jpg",
+      "tags": ["education", "innovation"]
+    }
+  ]
+}
